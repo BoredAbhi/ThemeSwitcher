@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#INFO : Run script at startup and a cron at 6:00AM and 7:00PM.
+
 HOUR="$(date | cut -d ' ' -f 4 | cut -d ':' -f 1)"
 
 #If Night : time is past 6:59 PM but before 5:59 AM 
