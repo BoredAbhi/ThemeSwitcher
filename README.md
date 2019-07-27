@@ -7,7 +7,7 @@ A XFCE theme switcher depending on time of day.
 2. ~~Conky Integration~~ ✔️
 3. Redshift integration
 
-## Instructions:
+### Instructions:
 
 Run script at startup and at 6:00AM & 7:00PM.
 cron : 0 6,19 * * * /home/abhimx/Documents/MyScripts/themeSwitcher.sh
