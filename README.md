@@ -9,5 +9,4 @@ A XFCE theme switcher depending on time of day.
 
 ### Instructions:
 
-Run script at startup and at 6:00AM & 7:00PM.
-cron : 0 6,19 * * * /home/abhimx/Documents/MyScripts/themeSwitcher.sh
+Run script at startup and at 6:00AM & 7:00PM.( cron : 0 6,19 * * * /home/abhimx/Documents/MyScripts/themeSwitcher.sh )
