@@ -13,5 +13,5 @@ Run script at startup and at 6:00AM & 7:00PM.
 
 cron : 
 ```
-0 6,19 * * * /home/abhimx/Documents/MyScripts/themeSwitcher.sh 
+0 6,19 * * * /home/<username>/Documents/MyScripts/themeSwitcher.sh 
 ```
