@@ -2,7 +2,7 @@
 
 HOUR="$(date | cut -d ' ' -f 4 | cut -d ':' -f 1)"
 
-#If time is past 6:59 PM but before 5:59 AM 
+#If Night : time is past 6:59 PM but before 5:59 AM 
 if [ $HOUR -gt 18 ] || [ $HOUR -lt 6 ]
 then
 	echo "Setting Night Theme"
@@ -11,8 +11,9 @@ then
 	NIGHT_WALLPAPER_PATH="$NIGHT_WALLPAPER_DIR$NIGHT_WALLPAPER"
 	xfconf-query -c xsettings -p /Net/ThemeName -s "Arc-Dark"
 	xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/workspace0/last-image -s $NIGHT_WALLPAPER_PATH
+	sh "/home/abhimx/.conky/conky-startup.sh"
 
-#Else Light Theme 
+#Else Day : Light Theme 
 else
 	echo "Setting Day Theme"
 	DAY_WALLPAPER_DIR=~/Pictures/Light_Wallpapers/
