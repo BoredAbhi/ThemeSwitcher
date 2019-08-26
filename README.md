@@ -7,6 +7,7 @@ A XFCE theme switcher depending on time of day.
 2. ~~Conky Integration~~ ❌ (starting it externally)
 3. ~~Redshift integration~~ ❌ (starting it externally)
 4. Fix Cron 
+5. Change terminal color 
 
 ### Instructions:
 
